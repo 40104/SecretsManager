@@ -4,14 +4,14 @@ This small application should have a client and a web application connected to t
 In the process of completing this project, I would like to get acquainted with the Golang programming language and the vue.js web development framework.
 
 Dependencies:<br />
-'go get -v <package-name>'
+_go get -v <package-name>_  <br />
 
 Run:<br />
-'go run cli/clsm.go' 
+_go run cli/clsm.go_  <br />
 
 Build & Run:<br />
-'go build cli/clsm.go'<br />
-'cli/clsm' <br />
+_go build cli/clsm.go_ <br />
+_cli/clsm_ <br />
 
 
 ## Information on meeting all requirements can be found below.
@@ -42,16 +42,16 @@ While working on the project, I used Visual Studio Code to work on the project.
 This is a convenient, multi-platform IDE with many plugins for any task.
 
 List of plugins used:<br />
- - Go - for help with writing Go code
- - Remote - SSH - for easy connection to the server on which the work was carried out
- - GitHub Pull Requests and Issues - for help with GitHub commits and branches
+:heavy_minus_sign: Go - for help with writing Go code
+:heavy_minus_sign: Remote - SSH - for easy connection to the server on which the work was carried out
+:heavy_minus_sign: GitHub Pull Requests and Issues - for help with GitHub commits and branches
 
 List of favorite shortcuts:<br />
- - 'Ctrl + c' - Copy
- - 'Ctrl + v' - Paste
- - 'Ctrl + f' - Search
- - 'Ctrl + '' - Console
- - 'Ctrl + r' - Replace
+:heavy_minus_sign: 'Ctrl + c' - Copy
+:heavy_minus_sign: 'Ctrl + v' - Paste
+:heavy_minus_sign: 'Ctrl + f' - Search
+:heavy_minus_sign: 'Ctrl + '' - Console
+:heavy_minus_sign: 'Ctrl + r' - Replace
 
 ## 11. Functional Programming
 
