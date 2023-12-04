@@ -12,13 +12,14 @@ Run:
 Build & Run:
 'go build cli/clsm.go'
 'cli/clsm' 
+''
 
 ## Information on meeting all requirements can be found below.
 ## 1. Git
 While working on the project I used GitHub
 
-&%C2%BB; [Commit history](https://github.com/40104/SecretsManager/commits/main)
-&%C2%BB; [Branches history](https://github.com/40104/SecretsManager/branches)
+:heavy_minus_sign: [Commit history](https://github.com/40104/SecretsManager/commits/main)
+:heavy_minus_sign: [Branches history](https://github.com/40104/SecretsManager/branches)
 
 ## 2. UML 
 
