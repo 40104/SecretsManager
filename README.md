@@ -41,12 +41,12 @@ While working on the project I used GitHub
 While working on the project, I used Visual Studio Code to work on the project.
 This is a convenient, multi-platform IDE with many plugins for any task.
 
-List of plugins used:
+:heavy_minus_sign: List of plugins used:
  - Go - for help with writing Go code
  - Remote - SSH - for easy connection to the server on which the work was carried out
  - GitHub Pull Requests and Issues - for help with GitHub commits and branches
 
-List of favorite shortcuts:
+:heavy_minus_sign: List of favorite shortcuts:
  - 'Ctrl + c' - Copy
  - 'Ctrl + v' - Paste
  - 'Ctrl + f' - Search
