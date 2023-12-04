@@ -42,16 +42,16 @@ While working on the project, I used Visual Studio Code to work on the project.
 This is a convenient, multi-platform IDE with many plugins for any task.
 
 List of plugins used:<br />
-:heavy_minus_sign: Go - for help with writing Go code
-:heavy_minus_sign: Remote - SSH - for easy connection to the server on which the work was carried out
-:heavy_minus_sign: GitHub Pull Requests and Issues - for help with GitHub commits and branches
+:heavy_minus_sign: Go - for help with writing Go code <br />
+:heavy_minus_sign: Remote - SSH - for easy connection to the server on which the work was carried out <br />
+:heavy_minus_sign: GitHub Pull Requests and Issues - for help with GitHub commits and branches <br />
 
 List of favorite shortcuts:<br />
-:heavy_minus_sign: 'Ctrl + c' - Copy
-:heavy_minus_sign: 'Ctrl + v' - Paste
-:heavy_minus_sign: 'Ctrl + f' - Search
-:heavy_minus_sign: 'Ctrl + '' - Console
-:heavy_minus_sign: 'Ctrl + r' - Replace
+:heavy_minus_sign: 'Ctrl + c' - Copy <br />
+:heavy_minus_sign: 'Ctrl + v' - Paste <br />
+:heavy_minus_sign: 'Ctrl + f' - Search <br />
+:heavy_minus_sign: 'Ctrl + '' - Console <br />
+:heavy_minus_sign: 'Ctrl + r' - Replace <br />
 
 ## 11. Functional Programming
 
