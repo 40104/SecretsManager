@@ -23,7 +23,7 @@ While working on the project I used GitHub
 
 ## 2. UML 
 To describe the project, I prepared UML diagrams of classes, components and users. <br />
-:heavy_minus_sign: [UML Diagrams](https://github.com/40104/SecretsManager/diagrams)<br />
+:heavy_minus_sign: [UML Diagrams](https://github.com/40104/SecretsManager/tree/main/diagrams)<br />
 
 ## 3. Requirements Engineering
 
