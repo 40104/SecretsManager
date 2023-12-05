@@ -1,0 +1,78 @@
+@startuml
+
+class Folder{
+  Int ID
+  String name
+  Int ParrentFolderID
+  List Secrets
+}
+
+class Secret{
+  List Passwords
+  List Keys
+}
+
+class Access{
+  Int ID
+  Int UserID
+  Int SecretID
+}
+
+class Password{
+  Int ID
+  String name
+  String username
+  String password
+  String url
+  String description
+  ---
+  # AddPassword()
+  # GeneratePassword()
+  # EditPassword()
+  # ReadPassword()
+  # RemovePassword()
+}
+
+class Key{
+  Int ID
+  String name
+  String public
+  String private
+  Enum type
+  String description
+  ---
+  # AddKey()
+  # GenerateKey()
+  # EditKey()
+  # ReadKey()
+  # RemoveKey()
+}
+
+class Account{
+  Int ID
+  String name
+  String password
+  ---
+  # AddUser()
+  # RemoveUser()
+  # ProvideAccess()
+  ---
+  - ChangePassword()
+}
+
+class User{
+   First name
+   Last name
+}
+
+
+
+Account "*" o--o "*" Access
+Secret "*" o--o "*" Access
+User ..> Account
+Key --^ Secret
+Password --^ Secret
+Secret "*" o--o "*" Folder
+Account "*" o--o "*" Folder
+
+@enduml

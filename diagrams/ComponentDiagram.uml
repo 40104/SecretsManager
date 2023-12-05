@@ -1,0 +1,33 @@
+@startuml
+
+actor User
+
+component "Frontend" {
+    [Web Application] as web
+    [CLI] as cli
+} 
+
+component "Backend" {
+    [API] as api
+    [Auth] as auth
+    [Data] as data
+} 
+
+component "PostgreSQL" {
+    [Secrets] as secret
+    [Accounts] as account
+} 
+
+User --> web
+User --> cli
+
+cli --> api
+web --> api
+
+api --> auth
+api --> data
+
+data --> secret
+auth --> account
+
+@enduml

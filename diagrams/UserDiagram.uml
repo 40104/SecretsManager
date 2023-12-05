@@ -1,0 +1,53 @@
+@startuml
+left to right direction
+package Users {
+actor "Web User" as bu
+actor "Console User" as cu
+}
+
+package ActionsWithSecrets {
+usecase "Create folder" as cf
+usecase "Remove folder" as rf
+usecase "Create secret" as cs
+usecase "Generate secret" as gs
+usecase "Remove secret" as rs
+usecase "View secret" as vs
+usecase "View secrets list" as vsl
+}
+
+package ActionsWithUsers{
+usecase "Provide access to secret" as pats
+usecase "Revoke access to secret" as rats
+usecase "Provide access to application" as pata
+usecase "Revoke access to application" as rata
+}
+
+package UserTeamsLeaders {
+actor "User Team Leader" as utl
+}
+
+
+package Administrators {
+actor "Administrator" as a
+}
+
+bu --> cs
+bu --> gs
+bu --> rs
+bu --> vs
+bu --> vsl
+
+cu --> cs
+cu --> gs
+cu --> rs
+cu --> vs
+cu --> vsl
+
+pata <-- a
+rata <-- a
+pats <-- utl
+rats <-- utl
+cf <-- utl
+rf <-- utl
+
+@enduml
