@@ -4,7 +4,7 @@ This small application should have a client and a web application connected to t
 In the process of completing this project, I would like to get acquainted with the Golang programming language and the vue.js web development framework.
 
 Dependencies:<br />
-_go get -v <package-name>_  <br />
+_go get -v 'package-name'_  <br />
 
 Run:<br />
 _go run cli/clsm.go_  <br />
