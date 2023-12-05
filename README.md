@@ -22,6 +22,8 @@ While working on the project I used GitHub
 :heavy_minus_sign: [Branches history](https://github.com/40104/SecretsManager/branches) <br />
 
 ## 2. UML 
+To describe the project, I prepared UML diagrams of classes, components and users. <br />
+:heavy_minus_sign: [UML Diagrams](https://github.com/40104/SecretsManager/diagrams)<br />
 
 ## 3. Requirements Engineering
 
