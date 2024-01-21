@@ -37,14 +37,14 @@ To describe the project, I prepared UML diagrams of classes, components and user
 ## 6. Metrics
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=40104_SecretsManager&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=40104_SecretsManager)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=40104_SecretsManager&metric=bugs)](https://sonarcloud.io/summary/new_code?id=40104_SecretsManager)
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=40104_SecretsManager&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=40104_SecretsManager)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=40104_SecretsManager&metric=bugs)](https://sonarcloud.io/summary/new_code?id=40104_SecretsManager)
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=40104_SecretsManager&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=40104_SecretsManager)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=40104_SecretsManager&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=40104_SecretsManager)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=40104_SecretsManager&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=40104_SecretsManager)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=40104_SecretsManager&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=40104_SecretsManager)
 [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=40104_SecretsManager&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=40104_SecretsManager)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=40104_SecretsManager&metric=coverage)](https://sonarcloud.io/summary/new_code?id=40104_SecretsManager)
+
 ## 7. Clean Code Development
 
 ## 8. Build
