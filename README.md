@@ -35,7 +35,7 @@ To describe the project, I prepared UML diagrams of classes, components and user
 ## 5. DDD
 
 ## 6. Metrics
-
+I used the SonarQube service to get metrics for my project. <br />
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=40104_SecretsManager&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=40104_SecretsManager)
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=40104_SecretsManager&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=40104_SecretsManager)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=40104_SecretsManager&metric=bugs)](https://sonarcloud.io/summary/new_code?id=40104_SecretsManager)
