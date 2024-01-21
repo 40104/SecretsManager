@@ -37,7 +37,7 @@ To describe the project, I prepared UML diagrams of classes, components and user
 ## 6. Metrics
 
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-orange.svg)](https://sonarcloud.io/summary/new_code?id=40104_SecretsManager)
-
+[![SonarCloud](https://sonarcloud.io/api/project_badges/measure?project=40104_SecretsManager&metric=bugs, code_smells, coverage, duplicated_lines_density, ncloc, sqale_rating, alert_status, reliability_rating, security_rating, sqale_index, vulnerabilities )](https://sonarcloud.io/summary/new_code?id=40104_SecretsManager)
 ## 7. Clean Code Development
 
 ## 8. Build
