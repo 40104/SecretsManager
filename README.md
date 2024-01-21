@@ -7,11 +7,14 @@ Dependencies:<br />
 _go get -v 'package-name'_  <br />
 
 Run:<br />
-_go run cli/clsm.go_  <br />
+_go run .cmd/server/main/_  <br />
+_go run .cmd/cli_client/main/_  <br />
 
 Build & Run:<br />
-_go build cli/clsm.go_ <br />
-_cli/clsm_ <br />
+_go build -o server .cmd/server/main/_ <br />
+_.cmd/server/server_ <br />
+_go build -o clsm .cmd/cli_client/main/_ <br />
+_.cmd/cli_client/clsm_ <br />
 
 
 ## Information on meeting all requirements can be found below.
