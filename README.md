@@ -34,6 +34,10 @@ To describe the project, I prepared UML diagrams of classes, components and user
 
 ## 5. DDD
 
+
+Visual Event Storming, Core Domain Chart and Relations / Mappings between the Domains  <br />
+:heavy_minus_sign: [DDD](https://github.com/40104/SecretsManager/blob/main/diagrams/DDD.pdf)<br />
+
 ## 6. Metrics
 I used the SonarQube service to get metrics for my project. <br />
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=40104_SecretsManager&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=40104_SecretsManager)
