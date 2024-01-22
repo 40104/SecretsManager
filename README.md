@@ -1,7 +1,7 @@
 # SecretsManager
 This is my base pet project of application for keep secrets.
-This small application should have a client and a web application connected to the backend and store the secrets encrypted in the database.
-In the process of completing this project, I would like to get acquainted with the Golang programming language and the vue.js web development framework.
+This small application should have a client connected to the backend and store the secrets encrypted in the database.
+In the process of completing this project, I would like to get acquainted with the Golang programming language.
 
 Dependencies:<br />
 _go get -v 'package-name'_  <br />
@@ -29,13 +29,14 @@ To describe the project, I prepared UML diagrams of classes, components and user
 :heavy_minus_sign: [UML Diagrams](https://github.com/40104/SecretsManager/tree/main/diagrams)<br />
 
 ## 3. Requirements Engineering
+To analyse the project, I prepared requirements engineering of my project using 2 different platform: <br />
+:heavy_minus_sign: [Confuence](https://40104.atlassian.net/wiki/spaces/~615f3ba3bfa2c1006bd815a0/pages/294913/40104+Secrets+Manager)<br />
+:heavy_minus_sign: [Notion](https://amusing-snake-490.notion.site/40104-Secrets-Manager-9aa9eac6b6224574b30825b51bad64c2)<br />
 
 ## 4. Analysis
 
 ## 5. DDD
-
-
-Visual Event Storming, Core Domain Chart and Relations / Mappings between the Domains  <br />
+To describe the project,I prepared Visual Event Storming, Core Domain Chart and Relations / Mappings between the Domains  <br />
 :heavy_minus_sign: [DDD](https://github.com/40104/SecretsManager/blob/main/diagrams/DDD.pdf)<br />
 
 ## 6. Metrics
