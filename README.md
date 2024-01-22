@@ -34,7 +34,8 @@ To analyse the project, I prepared requirements engineering of my project using 
 :heavy_minus_sign: [Notion](https://amusing-snake-490.notion.site/40104-Secrets-Manager-9aa9eac6b6224574b30825b51bad64c2)<br />
 
 ## 4. Analysis
-
+:heavy_minus_sign: [Analysis_A]()<br />
+:heavy_minus_sign: [Analysis_B]()<br />
 ## 5. DDD
 To describe the project,I prepared Visual Event Storming, Core Domain Chart and Relations / Mappings between the Domains  <br />
 :heavy_minus_sign: [DDD](https://github.com/40104/SecretsManager/blob/main/diagrams/DDD.pdf)<br />
