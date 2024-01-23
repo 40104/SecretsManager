@@ -34,8 +34,10 @@ To analyse the project, I prepared requirements engineering of my project using 
 :heavy_minus_sign: [Notion (URL)](https://amusing-snake-490.notion.site/40104-Secrets-Manager-9aa9eac6b6224574b30825b51bad64c2) or [Notion (PDF)](https://github.com/40104/SecretsManager/blob/main/documents/Notion_Secrets_Manager.pdf)<br />
 
 ## 4. Analysis
-:heavy_minus_sign: [Analysis_A](https://github.com/40104/SecretsManager/blob/main/documents/Analyse_A.md)<br />
-:heavy_minus_sign: [Analysis_B](https://github.com/40104/SecretsManager/blob/main/documents/Analyse_B.md)<br />
+My Analysis Checklist: <br />
+:heavy_minus_sign: [Analysis_A(md)](https://github.com/40104/SecretsManager/blob/main/documents/Analyse_A.md) or [Analysis_A(PDF)](https://github.com/40104/SecretsManager/blob/main/documents/Analyse_A.pdf)<br />
+My analysis of my project: <br />
+:heavy_minus_sign: [Analysis_B](https://github.com/40104/SecretsManager/blob/main/documents/Analyse_B.md) or [Analysis_B(PDF)](https://github.com/40104/SecretsManager/blob/main/documents/Analyse_B.pdf)<br />
 
 ## 5. DDD
 To describe the project,I prepared Visual Event Storming, Core Domain Chart and Relations / Mappings between the Domains  <br />
