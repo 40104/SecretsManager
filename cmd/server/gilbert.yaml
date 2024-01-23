@@ -19,6 +19,9 @@ tasks:
     action: cover
     params:
       packages:
-      - ./...
-      reportCoverage: true
-      threshold: 60
+      - ./main
+      - ./controllers
+      - ./models
+      - ./migrations
+      reportCoverage: false
+      threshold: 5

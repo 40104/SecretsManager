@@ -40,7 +40,6 @@ func (c *Controller) Get_Folders(w http.ResponseWriter, r *http.Request) {
 }
 // Create new folder controller 
 func (c *Controller) Add_Folder(w http.ResponseWriter, r *http.Request) {
-	token_string := r.Header.Get("Authorization")
     // Check permissions
 	token_string := r.Header.Get("Authorization") //Get auth header
     if token_string == "" {

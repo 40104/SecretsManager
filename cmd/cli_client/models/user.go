@@ -11,7 +11,6 @@ func (env *Env) Get_User(user_id int) {
 	user := User{}
 	json.Unmarshal(env.Connect(request_url,json_string), &user)
 	fmt.Printf("| ID: %d | UserName: %s | Password: %s | Role: %s |\n", user.ID, user.UserName, user.Password, user.Role.Name)
-
 }
 
 func (env *Env) Add_User(username string, password string, role_name string) {	

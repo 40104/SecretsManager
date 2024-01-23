@@ -5,6 +5,7 @@ import (
     "crypto/cipher"
     "crypto/rand"
 	"encoding/base64"
+    "log"
 )
 
 // Encoding

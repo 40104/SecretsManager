@@ -11,7 +11,7 @@ func main() {
 	// Init Application class
 	app := Application{}
 	// Init base variables
-	app.Init()	
+	app.Init("configs/app.env")	
 	
 	fmt.Printf("Running a web server at %s \n",app.Config.addr)
 	// Start web server

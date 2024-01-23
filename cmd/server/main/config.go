@@ -22,9 +22,9 @@ type Config struct {
 
 }
 // Init function
-func (app *Application) Init() {
+func (app *Application) Init(file string) {
 	// Import config file
-	if err := godotenv.Load("configs/app.env"); err != nil {
+	if err := godotenv.Load(file); err != nil {
     	log.Fatal(err) // Check the error
     }
 	// Init Config class

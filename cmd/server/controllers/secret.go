@@ -2,7 +2,7 @@ package controllers
 // import packages
 import (
 	"net/http"
-	"log"
+	//"log"
 	"encoding/json"
 
 	"40104/SecretsManager/cmd/server/models"
