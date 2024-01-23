@@ -30,12 +30,12 @@ To describe the project, I prepared UML diagrams of classes, components and user
 
 ## 3. Requirements Engineering
 To analyse the project, I prepared requirements engineering of my project using 2 different platform: <br />
-:heavy_minus_sign: [Confuence (URL)](https://40104.atlassian.net/wiki/spaces/~615f3ba3bfa2c1006bd815a0/pages/294913/40104+Secrets+Manager) or [Confuence (PDF)]()<br />
-:heavy_minus_sign: [Notion (URL)](https://amusing-snake-490.notion.site/40104-Secrets-Manager-9aa9eac6b6224574b30825b51bad64c2) or [Notion (PDF)]()<br />
+:heavy_minus_sign: [Confuence (URL)](https://40104.atlassian.net/wiki/spaces/~615f3ba3bfa2c1006bd815a0/pages/294913/40104+Secrets+Manager) or [Confuence (PDF)](https://github.com/40104/SecretsManager/blob/main/documents/Confluence_Secrets_Manager.pdf)<br />
+:heavy_minus_sign: [Notion (URL)](https://amusing-snake-490.notion.site/40104-Secrets-Manager-9aa9eac6b6224574b30825b51bad64c2) or [Notion (PDF)](https://github.com/40104/SecretsManager/blob/main/documents/Notion_Secrets_Manager.pdf)<br />
 
 ## 4. Analysis
-:heavy_minus_sign: [Analysis_A](https://github.com/40104/SecretsManager/blob/main/documemts/Analyse_A.md)<br />
-:heavy_minus_sign: [Analysis_B](https://github.com/40104/SecretsManager/blob/main/documemts/Analyse_B.md)<br />
+:heavy_minus_sign: [Analysis_A](https://github.com/40104/SecretsManager/blob/main/documents/Analyse_A.md)<br />
+:heavy_minus_sign: [Analysis_B](https://github.com/40104/SecretsManager/blob/main/documents/Analyse_B.md)<br />
 
 ## 5. DDD
 To describe the project,I prepared Visual Event Storming, Core Domain Chart and Relations / Mappings between the Domains  <br />
@@ -84,9 +84,9 @@ A Yaml file is used for configuration. The examples of the configuration Yaml fi
 
 ## 9. Unit tests
 
-For unit testing, the "testing" library built into Go was used. Unit tests cover almost all functions of accessing a database, as well as functions for generating a JWT token and its verification. The Unit testing file can be found below. <br />
+For unit testing, I used standart library "testing". Unit tests cover almost all functions of accessing a database, as well as functions for generating a JWT token and its verification. The Unit testing file can be found below. <br />
 :heavy_minus_sign: [Unit test](https://github.com/40104/SecretsManager/blob/main/cmd/server/main/main_test.go)<br />
-To start Unit testing you need to use the command:<br />
+To start Unit testing it needs to run:<br />
  _go test -v -o coverage.html_ <br />
 Output: <br />
 === RUN   Test_Create_Token <br />
