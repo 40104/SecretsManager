@@ -39,7 +39,7 @@ To analyse the project, I prepared requirements engineering of my project using 
 
 ## 5. DDD
 To describe the project,I prepared Visual Event Storming, Core Domain Chart and Relations / Mappings between the Domains  <br />
-:heavy_minus_sign: [DDD](https://github.com/40104/SecretsManager/blob/main/diagrams/DDD.pdf)<br />
+:heavy_minus_sign: [DDD](https://github.com/40104/SecretsManager/blob/main/documents/DDD.pdf)<br />
 
 ## 6. Metrics
 I used the SonarQube service to get metrics for my project. <br />
@@ -80,6 +80,12 @@ Gilber provides ample opportunities for creating custom scripts for project asse
 A Yaml file is used for configuration. The examples of the configuration Yaml files can be found there: <br />
 :heavy_minus_sign: [Server build](https://github.com/40104/SecretsManager/blob/main/cmd/server/gilbert.yaml)<br />
 :heavy_minus_sign: [CLI client build](https://github.com/40104/SecretsManager/blob/main/cmd/cli_client/gilbert.yaml)<br />
+
+To init Yaml file run:<br />
+ _gilber init<br />
+
+To build project run:<br />
+ _gilber run build<br />
 
 
 ## 9. Unit tests
