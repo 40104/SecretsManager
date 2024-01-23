@@ -37,7 +37,7 @@ To analyse the project, I prepared requirements engineering of my project using 
 My Analysis Checklist: <br />
 :heavy_minus_sign: [Analysis_A(md)](https://github.com/40104/SecretsManager/blob/main/documents/Analyse_A.md) or [Analysis_A(PDF)](https://github.com/40104/SecretsManager/blob/main/documents/Analyse_A.pdf)<br />
 My analysis of my project: <br />
-:heavy_minus_sign: [Analysis_B](https://github.com/40104/SecretsManager/blob/main/documents/Analyse_B.md) or [Analysis_B(PDF)](https://github.com/40104/SecretsManager/blob/main/documents/Analyse_B.pdf)<br />
+:heavy_minus_sign: [Analysis_B(md)](https://github.com/40104/SecretsManager/blob/main/documents/Analyse_B.md) or [Analysis_B(PDF)](https://github.com/40104/SecretsManager/blob/main/documents/Analyse_B.pdf)<br />
 
 ## 5. DDD
 To describe the project,I prepared Visual Event Storming, Core Domain Chart and Relations / Mappings between the Domains  <br />
