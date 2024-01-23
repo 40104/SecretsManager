@@ -25,8 +25,11 @@ While working on the project I used GitHub
 :heavy_minus_sign: [Branches history](https://github.com/40104/SecretsManager/branches) <br />
 
 ## 2. UML 
-To describe the project, I prepared UML diagrams of classes, components and users. <br />
-:heavy_minus_sign: [UML Diagrams](https://github.com/40104/SecretsManager/tree/main/diagrams)<br />
+To describe the project, I prepared UML diagrams of classes, components, users and activity. <br />
+:heavy_minus_sign: [Class UML Diagram](https://github.com/40104/SecretsManager/blob/main/diagrams/ClassDiagram.png)<br />
+:heavy_minus_sign: [Component UML Diagram](https://github.com/40104/SecretsManager/blob/main/diagrams/ComponentDiagram.png)<br />
+:heavy_minus_sign: [User UML Diagram](https://github.com/40104/SecretsManager/blob/main/diagrams/UserDiagram.png)<br />
+:heavy_minus_sign: [Activity UML Diagram](https://github.com/40104/SecretsManager/blob/main/diagrams/Activity.pdf)<br />
 
 ## 3. Requirements Engineering
 To analyse the project, I prepared requirements engineering of my project using 2 different platform: <br />
