@@ -71,8 +71,8 @@ B: <br />
 
 ## 8. Build
 
-As build system, I decided to use the Gilbert tool, which is an analogue of Ant, Gradle, Maven for those who develop their projects in Go. 
-:heavy_minus_sign: [Gilbert](https://github.com/go-gilbert/gilbert)<br />
+As build system, I decided to use the Gilbert tool, which is an analogue of Ant, Gradle, Maven for those who develop their projects in Go.<br />
+:heavy_minus_sign: [Gilbert](https://github.com/go-gilbert/gilbert) <br />
 
 
 Gilber provides ample opportunities for creating custom scripts for project assembly, testing, check project coverage, publishing to the server, and so on. <br />
