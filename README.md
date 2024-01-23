@@ -63,6 +63,8 @@ A: <br />
 :heavy_minus_sign: [Using standard packages](https://github.com/40104/SecretsManager/blob/main/cmd/server/models/crypto.go#L4-L7)<br />
 :heavy_minus_sign: [Clear variables names](https://github.com/40104/SecretsManager/blob/main/cmd/server/models/model.go#L11-L45)<br />
 :heavy_minus_sign: [Formating](https://github.com/40104/SecretsManager/blob/main/cmd/server/controllers/secret.go#L47-L49)<br />
+:heavy_minus_sign: [Using env](https://github.com/40104/SecretsManager/blob/main/cmd/configs/app.env#L1-L4)<br />
+:heavy_minus_sign: [Testing]()<br />
 
 B: <br />
 :heavy_minus_sign: [PDF]()<br />
