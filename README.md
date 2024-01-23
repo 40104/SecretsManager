@@ -85,7 +85,7 @@ A Yaml file is used for configuration. The examples of the configuration Yaml fi
 ## 9. Unit tests
 
 For unit testing, the "testing" library built into Go was used. Unit tests cover almost all functions of accessing a database, as well as functions for generating a JWT token and its verification. The Unit testing file can be found below. <br />
-:heavy_minus_sign: [unit test](https://github.com/40104/SecretsManager/blob/main/cmd/server/main/main_test.go)<br />
+:heavy_minus_sign: [Unit test](https://github.com/40104/SecretsManager/blob/main/cmd/server/main/main_test.go)<br />
 To start Unit testing you need to use the command:<br />
  _go test -v -o coverage.html_ <br />
 Output: <br />
