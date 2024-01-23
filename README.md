@@ -52,6 +52,15 @@ I used the SonarQube service to get metrics for my project. <br />
 [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=40104_SecretsManager&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=40104_SecretsManager)
 
 ## 7. Clean Code Development
+In the project I used many methods to make my code clean <br />
+:heavy_minus_sign: [Detailed comments](https://github.com/40104/SecretsManager/blob/main/cmd/server/main/config.go#L24-L52)<br />
+:heavy_minus_sign: [Clear function names](https://github.com/40104/SecretsManager/blob/main/cmd/server/models/folder.go#L43)<br />
+:heavy_minus_sign: [Class Design](https://github.com/40104/SecretsManager/blob/main/cmd/server/main/config.go#L12-L23)<br />
+:heavy_minus_sign: [Strong typing](https://github.com/40104/SecretsManager/blob/main/cmd/server/controllers/middleware.go#L30)<br />
+:heavy_minus_sign: [Error handler](https://github.com/40104/SecretsManager/blob/main/cmd/server/controllers/middleware.go#L47-L63)<br />
+:heavy_minus_sign: [Using standard packages](https://github.com/40104/SecretsManager/blob/main/cmd/server/models/crypto.go#L4-L7)<br />
+:heavy_minus_sign: [Clear variables names](https://github.com/40104/SecretsManager/blob/main/cmd/server/models/model.go#L11-L45)<br />
+:heavy_minus_sign: [Formating](https://github.com/40104/SecretsManager/blob/main/cmd/server/controllers/secret.go#L47-L49)<br />
 
 ## 8. Build
 

@@ -36,7 +36,7 @@ func (c *Controller) VerifyToken(token_string string ) (error, *Claims) {
 		return err, claims //chech error
 	}
 	if !token.Valid {
-		return err, claims //chech validation
+		return err, claims //check validation
 	}
 	return err, claims
 }
