@@ -1,5 +1,5 @@
 package models
-
+// import packages
 import (
 	"crypto/aes"
     "crypto/cipher"
@@ -15,7 +15,7 @@ func (m *DBModel) Encode(b []byte) string {
 func (m *DBModel) Decode(s string) string{
    data, err := base64.StdEncoding.DecodeString(s)
    if err != nil {
-		panic(err)
+    log.Fatal(err) //check error
    }
    return string(data)
 }
@@ -24,18 +24,18 @@ func (m *DBModel) Encrypt(plaintext string) string {
 	// AES cipher
     aes, err := aes.NewCipher([]byte(m.Key))
     if err != nil {
-        panic(err)
+        log.Fatal(err) //check error
     }
 	// GCM mode
     gcm, err := cipher.NewGCM(aes)
     if err != nil {
-        panic(err)
+        log.Fatal(err) //check error
     }
 	// Randomizer
     nonce := make([]byte, gcm.NonceSize())
     _, err = rand.Read(nonce)
     if err != nil {
-        panic(err)
+        log.Fatal(err) //check error
     }
 	// Encryption
     ciphertext := gcm.Seal(nonce, nonce, []byte(plaintext), nil)
@@ -47,12 +47,12 @@ func (m *DBModel) Decrypt(ciphertext string) string {
 	// AES cipher
     aes, err := aes.NewCipher([]byte(m.Key))
     if err != nil {
-        panic(err)
+        log.Fatal(err) //check error
     }
 	// GCM mode
     gcm, err := cipher.NewGCM(aes)
     if err != nil {
-        panic(err)
+        log.Fatal(err) //check error
     }
 	// Decoder
 	ciphertext = m.Decode(ciphertext)
@@ -61,7 +61,7 @@ func (m *DBModel) Decrypt(ciphertext string) string {
 	// Decryption
     plaintext, err := gcm.Open(nil, []byte(nonce), []byte(ciphertext), nil)
     if err != nil {
-        panic(err)
+        log.Fatal(err) //check error
     }
 
     return string(plaintext)

@@ -1,12 +1,13 @@
 package main
-
+// Import packages
 import (
 	"net/http" 
 )
-
+// Setup routes
 func (app *Application) Routes() *http.ServeMux {
+    // Set new server
     mux := http.NewServeMux()
-
+    // Set url paths
     mux.HandleFunc("/", app.Controller.Home)
     mux.HandleFunc("/login", app.Controller.Login)
     
@@ -33,10 +34,9 @@ func (app *Application) Routes() *http.ServeMux {
     mux.Handle("/user/add", app.Controller.AdminAuthMiddleWare(http.HandlerFunc(app.Controller.Add_User)))
     mux.Handle("/user/delete", app.Controller.AdminAuthMiddleWare(http.HandlerFunc(app.Controller.Delete_User)))
 
-    
-
+    // Set staticv folder path
     fileServer := http.FileServer(http.Dir("./views/static/"))
     mux.Handle("/static/", app.Controller.UserAuthMiddleWare(http.StripPrefix("/static", fileServer)))
-
+    // Return new server
     return mux
 }

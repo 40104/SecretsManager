@@ -1,5 +1,5 @@
 package models
-
+// import packages
 import (
 	"database/sql"
 	"log"
@@ -7,25 +7,26 @@ import (
 	_ "github.com/lib/pq"
 
 	"40104/SecretsManager/cmd/server/migrations"
-	
 )
-
+// DB conncetion function
 func (m *DBModel) ConnectDB(connection_string string) *sql.DB {
-	db, err := sql.Open("postgres", connection_string)
+	db, err := sql.Open("postgres", connection_string) // Open DB conncetion
     if err != nil {
-        log.Fatal(err)
+        log.Fatal(err) // Check error
     }
+	// Ping DB
 	if err = db.Ping(); err != nil {
-		log.Fatal(err)
+		log.Fatal(err) // Check error
 	}
 	return db 
 }
-
+// DB migration function
 func (m *DBModel) InitDB() {
-	if _, err := m.DB.Query("select * from secrets;"); err != nil {
-		if _, err := m.DB.Exec(migrations.Exec()); err != nil {
-			log.Fatal(err)
+	if _, err := m.DB.Query("select * from secrets;"); err != nil { //Check DB folder foes exist 
+		if _, err := m.DB.Exec(migrations.Exec()); err != nil { //Start migration
+			log.Fatal(err) // Check error
 		} else {
+			//Init DB by base data
 			m.Add_Role(Role{Name:"Administrator"})
 			m.Add_Role(Role{Name:"User"})
 			m.Add_User(User{UserName:"admin", Password:"admin", Role_ID: m.Get_Role_By_Name("Administrator").ID,})

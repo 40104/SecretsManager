@@ -86,11 +86,11 @@ List of favorite shortcuts:<br />
 
 ## 11. Functional Programming
 I have prepared a separate file to demonstrate Functional Programming. Below you can find links to lines of code that show the functional aspects in my code <br />
-:heavy_minus_sign: [only final data structures](https://github.com/40104/SecretsManager/blob/main/cmd/examples/Functional_Programming.go#L10-L21)<br />
-:heavy_minus_sign: [(mostly) side-effect-free functions](https://github.com/40104/SecretsManager/blob/main/cmd/examples/Functional_Programming.go#L23-L35)<br />
-:heavy_minus_sign: [the use of higher-order functions](https://github.com/40104/SecretsManager/blob/main/cmd/examples/Functional_Programming.go#L37-L51)<br />
-:heavy_minus_sign: [functions as parameters and return values](https://github.com/40104/SecretsManager/blob/main/cmd/examples/Functional_Programming.go#L53-L75)<br />
-:heavy_minus_sign: [use closures / anonymous functions](https://github.com/40104/SecretsManager/blob/main/cmd/examples/Functional_Programming.go#L77-L87)<br />
+:heavy_minus_sign: [Only final data structures](https://github.com/40104/SecretsManager/blob/main/cmd/examples/Functional_Programming.go#L10-L21)<br />
+:heavy_minus_sign: [Side-effect-free functions (Mostly)](https://github.com/40104/SecretsManager/blob/main/cmd/examples/Functional_Programming.go#L23-L35)<br />
+:heavy_minus_sign: [The use of higher-order functions](https://github.com/40104/SecretsManager/blob/main/cmd/examples/Functional_Programming.go#L37-L51)<br />
+:heavy_minus_sign: [Functions as parameters and return values](https://github.com/40104/SecretsManager/blob/main/cmd/examples/Functional_Programming.go#L53-L75)<br />
+:heavy_minus_sign: [Use closures / anonymous functions](https://github.com/40104/SecretsManager/blob/main/cmd/examples/Functional_Programming.go#L77-L87)<br />
 
 
 

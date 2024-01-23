@@ -1,5 +1,5 @@
 package migrations
-
+// SQL migration script
 func Exec() string{
 	exec:= `
 		CREATE TABLE IF NOT EXISTS roles (

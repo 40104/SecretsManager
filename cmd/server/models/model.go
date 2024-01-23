@@ -1,18 +1,19 @@
 package models
-
+// import packages
 import (
 	"database/sql"
 )
-
+// DB class
 type DBModel struct {
 	DB *sql.DB
 	Key string
 }
-
+// Role structure
 type Role struct {
 	ID int `json:"id"`
 	Name string `json:"name"`
 }
+// User structure
 type User struct {
 	ID int `json:"id"`
 	UserName string `json:"username"`
@@ -20,6 +21,7 @@ type User struct {
 	Role_ID int `json:"role_id"`
 	Role *Role `json:"role"`
 }
+// Folder structure
 type Folder struct {
 	ID int `json:"id"`
 	Name string `json:"name"`
@@ -28,6 +30,7 @@ type Folder struct {
 	Parrent_Folder_ID sql.NullInt64 `json:"parrent_folder_id"`
 	Parrent_Folder *Folder `json:"parrent_folder"`
 }
+// Secret structure
 type Secret struct {
 	ID int `json:"id"`
 	Name string `json:"name"`
