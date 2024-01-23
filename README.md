@@ -30,12 +30,12 @@ To describe the project, I prepared UML diagrams of classes, components and user
 
 ## 3. Requirements Engineering
 To analyse the project, I prepared requirements engineering of my project using 2 different platform: <br />
-:heavy_minus_sign: [Confuence](https://40104.atlassian.net/wiki/spaces/~615f3ba3bfa2c1006bd815a0/pages/294913/40104+Secrets+Manager)<br />
-:heavy_minus_sign: [Notion](https://amusing-snake-490.notion.site/40104-Secrets-Manager-9aa9eac6b6224574b30825b51bad64c2)<br />
+:heavy_minus_sign: [Confuence (URL)](https://40104.atlassian.net/wiki/spaces/~615f3ba3bfa2c1006bd815a0/pages/294913/40104+Secrets+Manager) or [Confuence (PDF)]()<br />
+:heavy_minus_sign: [Notion (URL)](https://amusing-snake-490.notion.site/40104-Secrets-Manager-9aa9eac6b6224574b30825b51bad64c2) or [Notion (PDF)]()<br />
 
 ## 4. Analysis
-:heavy_minus_sign: [Analysis_A(link)](https://github.com/40104/SecretsManager/blob/main/documets/Analyse_A.md) or [Analysis_A(PDF)](https://github.com/40104/SecretsManager/blob/main/documets/Analyse_A.md)<br />
-:heavy_minus_sign: [Analysis_B(link)](https://github.com/40104/SecretsManager/blob/main/documets/Analyse_B.md) or [Analysis_B(PDF)](https://github.com/40104/SecretsManager/blob/main/documets/Analyse_B.md)<br />
+:heavy_minus_sign: [Analysis_A](https://github.com/40104/SecretsManager/blob/main/documemts/Analyse_A.md)<br />
+:heavy_minus_sign: [Analysis_B](https://github.com/40104/SecretsManager/blob/main/documemts/Analyse_B.md)<br />
 
 ## 5. DDD
 To describe the project,I prepared Visual Event Storming, Core Domain Chart and Relations / Mappings between the Domains  <br />
