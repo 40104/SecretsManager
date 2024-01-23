@@ -34,8 +34,9 @@ To analyse the project, I prepared requirements engineering of my project using 
 :heavy_minus_sign: [Notion](https://amusing-snake-490.notion.site/40104-Secrets-Manager-9aa9eac6b6224574b30825b51bad64c2)<br />
 
 ## 4. Analysis
-:heavy_minus_sign: [Analysis_A](https://github.com/40104/SecretsManager/blob/main/documets/Analyse_A.md)<br />
-:heavy_minus_sign: [Analysis_B](https://github.com/40104/SecretsManager/blob/main/documets/Analyse_B.md)<br />
+:heavy_minus_sign: [Analysis_A(link)](https://github.com/40104/SecretsManager/blob/main/documets/Analyse_A.md) or [Analysis_A(PDF)](https://github.com/40104/SecretsManager/blob/main/documets/Analyse_A.md)<br />
+:heavy_minus_sign: [Analysis_B(link)](https://github.com/40104/SecretsManager/blob/main/documets/Analyse_B.md) or [Analysis_B(PDF)](https://github.com/40104/SecretsManager/blob/main/documets/Analyse_B.md)<br />
+
 ## 5. DDD
 To describe the project,I prepared Visual Event Storming, Core Domain Chart and Relations / Mappings between the Domains  <br />
 :heavy_minus_sign: [DDD](https://github.com/40104/SecretsManager/blob/main/diagrams/DDD.pdf)<br />
@@ -53,6 +54,7 @@ I used the SonarQube service to get metrics for my project. <br />
 
 ## 7. Clean Code Development
 In the project I used many methods to make my code clean <br />
+A: <br />
 :heavy_minus_sign: [Detailed comments](https://github.com/40104/SecretsManager/blob/main/cmd/server/main/config.go#L24-L52)<br />
 :heavy_minus_sign: [Clear function names](https://github.com/40104/SecretsManager/blob/main/cmd/server/models/folder.go#L43)<br />
 :heavy_minus_sign: [Class Design](https://github.com/40104/SecretsManager/blob/main/cmd/server/main/config.go#L12-L23)<br />
@@ -61,6 +63,9 @@ In the project I used many methods to make my code clean <br />
 :heavy_minus_sign: [Using standard packages](https://github.com/40104/SecretsManager/blob/main/cmd/server/models/crypto.go#L4-L7)<br />
 :heavy_minus_sign: [Clear variables names](https://github.com/40104/SecretsManager/blob/main/cmd/server/models/model.go#L11-L45)<br />
 :heavy_minus_sign: [Formating](https://github.com/40104/SecretsManager/blob/main/cmd/server/controllers/secret.go#L47-L49)<br />
+
+B: <br />
+:heavy_minus_sign: [PDF]()<br />
 
 ## 8. Build
 
